@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flavian — JS Fundamentals</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="name">Flavian Mwaura</h1>
+    <p id="tagline">Graphics Programmer & Technical Communicator</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Basics</h2>
+      <div>
+        <label for="visitorName">Your name:</label>
+        <input id="visitorName" type="text" placeholder="Enter name" />
+        <button id="greetBtn">Greet</button>
+      </div>
+      <p id="greeting" class="muted">Waiting to greet…</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul id="skillsList"></ul>
+      <div>
+         <input id="newSkill" type="text" placeholder="Add a skill" />
+         <button id="addSkillBtn">Add Skill</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Controls</h2>
+      <button id="themeToggle" aria-pressed="false">Toggle Theme</button>
+      <button id="countdownBtn">Run 5→0 Countdown</button>
+      <span id="countdownStatus" class="muted">Ready</span>
+      <button id="spawnNoteBtn">Create Note</button>
+      <div id="notes"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Flavian — Vanilla JS</small>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
